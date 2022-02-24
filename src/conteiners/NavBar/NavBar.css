@@ -1,0 +1,17 @@
+.Nav{
+    background-color: black;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.NavList{
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.NavList li{
+    box-sizing: border-box;
+    padding: 10px;
+}
