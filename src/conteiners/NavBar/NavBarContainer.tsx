@@ -6,10 +6,10 @@ export default function NavCont() {
         <nav className="Nav">
             <ul className="NavList">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link className="Nav-text" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/PokemonsImage">Pokemon Sprit</Link>
+                    <Link className="Nav-text" to="/PokemonsImage">Pokemon Sprit</Link>
                 </li>
             </ul>
         </nav>

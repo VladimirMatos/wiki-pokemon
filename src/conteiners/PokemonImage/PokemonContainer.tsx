@@ -2,9 +2,10 @@ import { getPokemonsImage } from '/Users/pixnabi/Desktop/react/pokemon-app/src/s
 import { useEffect, useState } from 'react';
 import './PokemonImage.css';
 
-const url = 'pokemon/ditto'
 
-export default function PokemonImage() {
+
+export default function PokemonImage(pokemon:string) {
+    const url = `pokemon/${pokemon}`
     const [isLoading, setIsLoading] = useState(true);
     const [image, setImage] = useState("");
 
